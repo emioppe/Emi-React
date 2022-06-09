@@ -1,24 +1,32 @@
-import { useState } from 'react'
+import { useState,} from 'react'
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/NavBar/NavBar"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import CartWidget from './components/CartWidget/CartWidget';
-import ItemCount from "./components/ItemCount"
+import ItemCount  from "./components/ItemCount"
 
-/*
+
+
+
 function App() {
+
+        
    return (
     <>
     <NavBar/>
     <ItemListContainer mensaje = "Elija su producto" /> 
-    
+    <ItemCount/>
     </>
   )
-}*/
+}
 
 
+//--------------------------------------------------
+
+
+/*
 const App = () =>{
        
      const [count, modificarCount] = useState (0)
@@ -51,8 +59,10 @@ return(
     </div>
 
 )
-}
+} */
 
+
+//--------------     PROMESAS -----------------------------
 
 /*
 export default function App(){

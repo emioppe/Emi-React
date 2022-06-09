@@ -26,10 +26,6 @@ const NavBar = () => {
           <a className="nav-link disabled">Accesorios</a>
         </li>
       </ul>
-
- 
-      
-      <CartWidget/>
       
     </div>
   </div>
@@ -38,6 +34,5 @@ const NavBar = () => {
   )
   
 }
-
 
 export default NavBar

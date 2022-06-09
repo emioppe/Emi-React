@@ -1,27 +1,28 @@
 import React from "react"
 
 
+
+
 const ItemListContainer = (props) => {
       return (
 
-      <h1> {props.mensaje} </h1> 
+      <h3> {props.mensaje} </h3> 
 
       )
 }
 
-
-
-export default ItemListContainer
-
+export default ItemListContainer 
 
 
 
 
+//-------------- PROMESAS  ---------------
 
 /*
 const task = new promise((resolve, reject) => {
               
                let condition = true
+
                if (condition){
                      resolve ("200 ok")
                } else {
@@ -37,14 +38,15 @@ const ItemListContainer = () =>{
                 console.log(resp)
             } ) 
             .catch (err => console.log(err))
-
+            .then (() => console.log("0ho1"))
+            .finally(() => console.log("Hola"))
 
       return(
             <div>Item</div>
       )
-}*/
+}
 
-
+export default ItemListContainer */
 
 
 
