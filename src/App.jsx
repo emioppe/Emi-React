@@ -17,7 +17,7 @@ function App() {
     <>
     <NavBar/>
     <ItemListContainer mensaje = "Elija su producto" /> 
-    <ItemCount/>
+    <ItemCount stock="5" initial="1" >
     </>
   )
 }
