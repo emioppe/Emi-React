@@ -8,16 +8,17 @@ import CartWidget from './components/CartWidget/CartWidget';
 import ItemCount  from "./components/ItemCount"
 
 
-
-
 function App() {
+     
+   
+   
+   return ( 
+    <> 
+      <NavBar></NavBar>
+      <ItemListContainer mensaje = "Elija su producto" /> 
+      <ItemCount stock="10" initial="1"  >  </ItemCount>
+      <ItemCount stock="15" initial="2"  >  </ItemCount>
 
-        
-   return (
-    <>
-    <NavBar/>
-    <ItemListContainer mensaje = "Elija su producto" /> 
-    <ItemCount stock="5" initial="1" >
     </>
   )
 }
